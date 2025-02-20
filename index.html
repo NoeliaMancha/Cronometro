@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cronometro.css">
+    <script src="cronometro.js" defer></script>
+    <title>Cronómetro</title>
+</head>
+<body>
+    <div id="pantalla" class="pantalla">
+        <p id="parrafoPantalla" class="parrafoPantalla">Tras 10 segundos aparecerá una pantalla para reininicar <br>el cronómetro, 
+            si antes de ese tiempo  lo paras, <br>podrás seleccionar una fecha en el formulario<br> y volver a iniciar el cronómetro</p>
+        <button id="inicio" class="inicio">Iniciar</button>
+    </div>
+
+    <h1 id="enunciado">Cronómetro</h1>
+
+    <div id="contador">00:00:00</div>
+
+    <div id="botones">
+        <button id="iniciar">Iniciar</button>
+        <button id="parar">Parar</button>
+        <button id="reset">Resetear</button>
+    </div>
+
+    <div id="container-formulario">
+        <p>Selecciona la fecha</p>
+        <input type="date" id="SelectDateInput">
+    </div>
+    
+
+</body>
+</html>
